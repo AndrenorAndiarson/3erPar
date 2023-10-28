@@ -1,4 +1,7 @@
 package Ejer3_2;
+
+import Ejer3_6.Curso;
+
 public class Main {
     public static void main(String[] args) {
         Cadena cadena1 = new Cadena();
@@ -62,4 +65,11 @@ public class Main {
         }
         System.out.println("Texto invertido: ");
         System.out.println(textoInvertido);
+
+// Curso Universitario
+
+        Curso curso1 = new Curso();
+        curso1.agregarEstudiante();
+        curso1.buscarEstudiantePorCodigo();
+
     }}

@@ -21,9 +21,9 @@ public class Main {
         boolean comparacion= cadenaRemplazada.equals("Programacion");
         System.out.println("Los String son iguales = "+ comparacion);
 
-        //Un método que reciba como parámetro un String y calcule cuántas mayúsculas tiene.
+        //Un metodo que reciba como parámetro un String y calcule cuántas mayúsculas tiene.
 
-        System.out.println("Un método que reciba como parámetro un String y calcule cuántas mayúsculas tiene.");
+        System.out.println("Un metodo que reciba como parametro un String y calcule cuantas mayusculas tiene.");
 
         for (int i=0;i<cadena1.cadenaInicial.length();i++){
             if(Character.isUpperCase(cadena1.cadenaInicial.charAt(i))){
@@ -41,7 +41,7 @@ public class Main {
         }
         System.out.println("La cantidad de mayusculas son: "+contador);
 
-//Un método que reciba como parámetro un String y una letra, y determine cuántas veces está la letra en el String (la letra puede estar en mayúscula o minúscula).
+//Un metodo que reciba como parametro un String y una letra, y determine cuántas veces está la letra en el String (la letra puede estar en mayuscula o minuscula).
         int contador2 = 0;
         char letra = 'a';
         for (int i = 0; i < cadena1.cadenaInicial.length(); i++) {
@@ -52,7 +52,7 @@ public class Main {
         }
         System.out.println("La letra '" + letra + "' aparece " + contador2 + " veces en el texto: " + cadena1.cadenaInicial);
 
-        //Un método que reciba como parámetro un String, y que elimine todos sus espacios en blanco y escriba en pantalla el String resultante.
+        //Un mtodo que reciba como parametro un String, y que elimine todos sus espacios en blanco y escriba en pantalla el String resultante.
 
         String TextoSinEspacios = cadena1.cadenaInicial.replaceAll(" ", "");
         System.out.println("Texto sin espacios: " + TextoSinEspacios);
@@ -69,7 +69,6 @@ public class Main {
 // Curso Universitario
 
         Curso curso1 = new Curso();
-        curso1.agregarEstudiante();
-        curso1.buscarEstudiantePorCodigo();
+        curso1.mostrarMenu();
 
     }}

@@ -1,7 +1,9 @@
 package Ejer3_6;
 
 public class Computador {
-    String marca,caracteristicasProcesador,sisteOpera;
+    public String marca;
+    String caracteristicasProcesador;
+    String sisteOpera;
     double precio;
     int cantidadMemoria;
 

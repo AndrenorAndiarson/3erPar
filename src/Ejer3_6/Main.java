@@ -18,6 +18,8 @@ public class Main {
         System.out.println("El computador a buscar: "+ marca+" Se encuentra en la posicion "+ tienda.buscar(marca));
         tienda.imprimir();
         System.out.println("...................");
+
+
     }
 
 

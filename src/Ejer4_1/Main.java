@@ -26,5 +26,6 @@ public class Main {
         cuenta1.retirar(cantidadRetirar);
         cuenta1.extractoMensual();
         cuenta1.imprimir();
+
     }
 }
